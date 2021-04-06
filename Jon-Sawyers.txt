@@ -1,0 +1,120 @@
+link to finished codepen:https://codepen.io/Sawyersjon/pen/qBRXyqW?editors=1100
+
+Copy the questions below into the first-lastname.txt file on your github repo - answer each question and then push your changes. 
+
+    1. What is Semantic HTML? 
+        It clearly defines what kind of structure it is.  (i.e. form, table, img)
+
+    2. What is HTML used for? 
+        It gives the website structure.
+
+    3. What is an attribute and where do we put it? 
+        An attribute gives you more information on the element.  You put it in the opening tag.
+
+    4. What is the h1 tag used for? How many times should I use it on a page?
+        The main heading, and only once.
+
+    5. Name two tags that have required attributes
+        The tags a and img
+
+    6. What do we put in the head of our HTML document? 
+        The title of the document
+
+    7. What is an id? 
+        It's an attribute assigned to a unique element.
+
+    8. What elements can I add an id to? 
+        Any elements
+   
+    9. How many times can I use the same id on a page? 
+        once
+
+    10. What is a class? 
+        specifies one or more classnames for an element.
+
+    11. What elements can I add a class to? 
+        Any elements
+   
+    12. How many times can I use the same class on a page? 
+        Multiple times
+
+    13. How do I get my link to open in a new tab?
+        Add target=_blank to the opening tag
+
+    14. What is the alt attribute in the image tag used for? 
+        Adds text to our image if it can't be displayed
+
+    15. How do I reference an id?
+        #idname
+    16. What is the difference between a section and a div
+
+    17. What is CSS used for? 
+        styling the website
+
+    18. How to we select an element? Example - every h2 on the page
+        h2{
+
+        }
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+        Class can be used more than once unlike id.  I would use class if I was wanting to change multiple areas of the structure and I would use id if i wanted to only change one area.
+    20. How do we select classes in CSS?
+        .class
+    21. How do we select a p element with a single class of “human””?
+        .human{}
+    22. What is a parent child selector? When would this be useful? 
+        It refers to a tag within a tag.  When you have to select multiple elements within another element.
+    
+    23. How do you select all links within a div with the class of sidebar?
+        .sidebar:links{ 
+
+        }
+
+    24. What is a pseudo selector?
+        used to define a speial state of an element.
+    
+    25. What do we use the change the spacing between lines?
+        Line-height
+
+    26. What do we use to change the spacing between letters?
+        Letter-spacing
+
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+        text-transform: capitals, lowercase uppercase
+
+    28. How do I add a 1px border around my div that is dotted and black?
+        border-style= 1px dotted black;
+
+    29. How do I select everything on the page? 
+        *
+    30. How do I write a comment in CSS?
+        /*comment*/
+    
+    31. How do I find out what file I am in, when I am using the command line? 
+        pwd
+
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+        ls
+
+    33. How do I remove a file via the command line? Why do I have to be careful with this? 
+        rm Filename
+
+    34. Why should I use version control? 
+        Keeps everything organized
+
+    35. How often should I commit to github?
+        Every 20 mins
+
+    36. What is the command we would use to push our repo up to github?
+        git push -u firstname-lastname
+    
+    37. Walk me through Lambda's git flow. 
+        Step 1: Fork the repo
+        Step 2: Clone the repo
+        Step 3: paste the cloned repo into git bash in the correct directory.
+        Step 4: cd into the clone file
+        Step 5: branch
+        Step 6: git add .
+        Step 7: git commit -m "what you changed"
+        Step 8: git push -u origin Branch-Name
+        Step 9: create and submit a pull request once you're done with the project
+ 
